@@ -1,0 +1,27 @@
+<?php
+
+/**
+ * @file
+ * Ensures ImageCache updates punch through all external caches.
+ */
+
+/**
+ * The name of the token we will be adding to all images.
+ */
+define('IMAGECACHE_PUNCH_PARAM', 't');
+
+/**
+ * For new (nonexistent) images, how often will we re-attempt generation?
+ */
+define('IMAGECACHE_PUNCH_FREQ', 60);
+
+/**
+ * Inject our custom stream wrapper so that we can adjust the output.
+ *
+ * Implements hook_stream_wrappers_alter().
+ */
+function imagecache_punch_stream_wrappers_alter(&$wrappers) {
+  if (isset($wrappers['public'])) {
+    $wrappers['public']['class'] = 'ImageCachePunchPublicStreamWrapper';
+  }
+}

@@ -1,0 +1,322 @@
+body{
+
+background-color:#EEEEEE ;
+overflow-y: scroll;
+overflow-x: hidden;
+
+}
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#Firstnavbar
+{
+  background-color: #F8F8F8;
+  border-bottom:1px solid #E9E9E9;
+
+}
+
+#Firstnavbar ul li
+{
+  float: right;
+  border-right:1px solid #E9E9E9;
+}
+
+
+#Firstnavbar ul li ul
+{
+  margin-left: -53px;
+  background-color:#FFF;
+  color:#E9E9E9;
+}
+
+
+
+ #secondnavbar
+ {
+
+  background-color: #FFF;
+ }
+
+
+
+  /*Header1  Links Styling Code Start Here */
+
+
+#Firstnavbar ul li a:link{
+
+color: gray;
+text-decoration: none;
+background-color: transparent;
+
+}
+
+#Firstnavbar ul li a:visited{
+
+color: gray ;
+text-decoration: none;
+background-color: transparent;
+
+}
+
+#Firstnavbar ul li a:hover{
+
+color: red;
+text-decoration: none;
+background-color: transparent;
+
+}
+
+
+ /*Header2 Links Styling Code Start Here*/
+
+ #secondnavbar ul li a:link{
+
+color:black;
+text-decoration: none;
+background-color: transparent;
+
+}
+
+#secondnavbar ul li a:visited{
+
+color:black ;
+text-decoration: none;
+background-color: transparent;
+
+}
+
+#secondnavbar ul li a:hover{
+
+color: red;
+text-decoration: none;
+background-color: transparent;
+
+}
+
+
+
+
+#sitelogo
+{
+  margin-left:60px;
+  padding-top: 10px;
+  padding-bottom:65px;
+
+}
+
+#sitelogo a .logo-slogan
+{
+  font-size: 11px;
+  height:14px;
+  line-height: 12px;
+  color:#999;
+
+}
+
+
+#sitelogo a:hover
+{
+  text-decoration:none;
+}
+
+#SearchBarController
+{
+  margin-top:27px;
+  margin-left: -136px;
+  width:500px;
+
+}
+
+#SearchBarController  .btn-primary
+{
+   background-color:#E62E04;
+   border-radius: 0px;
+   border-top-right-radius:5px;
+   border-bottom-right-radius:5px;
+   border:1px solid #E62E04;
+}
+
+#barlinks
+{
+  margin-top: 20px;
+  margin-right: -65px;
+}
+
+#ThirdHeader
+{
+  border-top:1px solid #E9E9E9;
+  border-bottom:1px solid #E9E9E9;
+  background: #FFF;
+}
+
+#categories
+{
+  background-color: #F2F2F2;
+  color:#333;
+  margin-left: 20px;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom:4px;
+  font:14px;
+  font-weight: 700;
+
+}
+
+#categories span a
+{
+  margin-left:5px;
+  font-weight: 100;
+  color:#666;
+
+}
+
+
+#ThirdTopBarDeals ul
+{
+  margin-left:-20px;
+
+}
+
+
+#ThirdTopBarDeals ul li
+{
+  float:left;
+  font-weight:700;
+}
+
+
+
+  /*Header3  Deals Links Styling Code Start Here */
+
+
+#ThirdTopBarDeals ul li a:link{
+
+color: #666;
+text-decoration: none;
+background-color: transparent;
+
+}
+
+#ThirdTopBarDeals ul li a:visited{
+
+color:#363333 ;
+text-decoration: none;
+background-color: transparent;
+
+}
+
+#ThirdTopBarDeals ul li a:hover{
+
+color:#FF7D00;
+text-decoration: none;
+background-color: transparent;
+
+}
+
+#Sidebarstyling
+{
+  margin-left: 20px;
+
+
+}
+
+
+
+
+  /*Side Bar  Styling Code Start Here */
+
+
+#Sidebarstyling ul li a:link{
+
+color: #666;
+text-decoration: none;
+background-color: transparent;
+
+}
+
+#Sidebarstyling ul li a:visited{
+
+color:#363333 ;
+text-decoration: none;
+background-color: transparent;
+
+}
+
+#Sidebarstyling ul li a:hover{
+
+color:red;
+text-decoration: none;
+background-color: transparent;
+
+}
+
+    /* Ending of  Side Bar  Styling Code Start Here */
+
+
+#Sidebarstyling .well
+{
+  background-color: #FFF;
+  border-radius:0px;
+}
+
+
+
+#highlitedslider #views_slideshow_cycle_teaser_section_main_slider_view-block
+{
+
+  margin-left:-30px;
+  margin-top: -48px;
+
+}
+
+#seondarysidebar #views_slideshow_cycle_teaser_section_secondary_slider-block
+{
+  margin-left: 50px;
+  margin-top: 0px;
+}
+
+
+ #Firstnavbar .contextual-links-wrapper .contextual-links-processed  ul .dropdown-menu li
+{
+  background-color: red;
+    margin-left:2px;
+}
+
+
+#footer1{
+
+background-color: #FFF;
+
+border-top: 1px solid #CBCBCB;
+border-bottom:1px solid #CBCBCB;
+}
+#footer1 td{
+
+border-left : 1px solid #CBCBCB;
+padding-top: 30px;
+padding-bottom:30px;
+padding-left:20px ;
+padding-right: 20px;
+}
+
+#footer1 .col-last{
+
+border-right : 1px solid #CBCBCB;
+
+}
+#footer1 td .views-field-title{
+color: black;
+text-align: center;
+}
+
+
+#footer1 td p{
+color: #A0A7B5 ;
+text-align: center;
+}
+
+#footer1 td img {
+  margin-left:50px;
+}
