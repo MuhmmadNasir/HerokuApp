@@ -11,6 +11,7 @@ base theme = bootstrap
 
 regions[FirstTop_Bar]         = 'Navigation_Firsttop'
 regions[SecondTop_Bar_Search] = 'Navigation_Secondtop_Search'
+regions[SecondTop_Bar_Links]  = 'SecondTopBarNavigation'
 regions[ThirdTop_Bar_Deals]   = 'Navigation_Thirdtop_Deals'
 
 regions[navigation]     = 'Navigation'
@@ -20,9 +21,15 @@ regions[help]           = 'Help'
 regions[content]        = 'Content'
 regions[sidebar_first]  = 'Primary'
 regions[sidebar_second] = 'Secondary'
-regions[footer]         = 'Footer'
 regions[page_top]       = 'Page top'
 regions[page_bottom]    = 'Page bottom'
+regions[footer]         = 'Footer'
+regions[footer_second]  = 'footer second'
+regions[footer_third]   = 'footer third'
+regions[footer_fourth]   = 'footer fourth'
+regions[footer_third_rightside]     =  footer Third  Rightside
+regions[footer_second_subscription] = 'subscription'
+
 
 
 ;;;;;;;;;;;;;;;;;;;;;

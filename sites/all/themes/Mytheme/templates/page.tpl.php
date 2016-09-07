@@ -126,22 +126,19 @@
 
   <div class="col-md-4">
 
-     <!--Starting of menu Bar links Cart ,Wishlist , myaccount , Logout etc-->
-    <div id="barlinks">
-    <?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
-      <div class="navbar-collapse collapse">
-        <nav role="navigation">
-          <?php if (!empty($secondary_nav)): ?>
-            <?php print render($secondary_nav); ?>
-          <?php endif; ?>
-          <?php if (!empty($page['navigation'])): ?>
-            <?php print render($page['navigation']); ?>
-          <?php endif; ?>
-        </nav>
-      </div>
-    <?php endif; ?>
+  <!--Starting of menu Bar links Cart ,Wishlist , myaccount , Logout etc-->
 
-  </div>  <!-- Barlinks id Ending  -->
+
+  <?php if (!empty($page['SecondTop_Bar_Links'])): ?>
+  <div id="barlinks">
+
+  <?php print render($page['SecondTop_Bar_Links']); ?>
+
+
+</div>  <!-- Barlinks id Ending  -->
+  <?php endif; ?>
+
+
 
 </div>   <!--Ending of menu Bar links Cart ,Wishlist , myaccount , Logout etc-->
 
@@ -275,7 +272,10 @@
 
   <div class="row">
 
+  <?php print $messages; ?>
 
+
+<!--
     <section<?php print $content_column_class; ?>>
 
       <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>
@@ -297,7 +297,7 @@
       <?php endif; ?>
       <?php print render($page['content']); ?>
     </section>
-
+ -->
 
   </div>
 </div>
@@ -306,10 +306,86 @@
 
 <?php if (!empty($page['footer'])): ?>
   <footer  id="footer1">
-    <div class="Container">
+    <div class="container">
     <?php print render($page['footer']); ?>
   </div>
   </footer>
 <?php endif; ?>
 
 <!--Footer First End-->
+
+<!--Footer Second-->
+<div class="row " id="footer2">
+
+  <div class="col-sm-4">
+  <?php if (!empty($page['footer_second_subscription'])): ?>
+  <footer   >
+    <div class="">
+    <?php print render($page['footer_second_subscription']); ?>
+ </div>
+  </footer>
+<?php endif; ?>
+
+ </div>
+
+
+  <div class="col-sm-8">
+<?php if (!empty($page['footer_second'])): ?>
+  <footer   >
+    <div class="">
+    <?php print render($page['footer_second']); ?>
+ </div>
+  </footer>
+<?php endif; ?>
+</div>
+
+
+</div>
+
+<!--Footer Second End-->
+
+
+<!-- Third footer-->
+
+  <div class="row padding-bottom">
+<?php if (!empty($page['footer_third'])): ?>
+<div class="col-md-6 pull-left">
+  <footer class="containerleft">
+    <div id="footerThird">
+    <?php print render($page['footer_third']); ?>
+    </div>
+  </footer>
+</div>
+<?php endif; ?>
+
+<?php if (!empty($page['footer_third_rightside'])): ?>
+<div class="col-md-6 pull-right">
+  <footer class="containerright">
+    <div id="footerThird">
+    <?php print render($page['footer_third_rightside']); ?>
+    </div>
+  </footer>
+</div>
+<?php endif; ?>
+
+  </div>
+
+<!-- Fotter NO 4 Starting -->
+
+
+<?php if (!empty($page['footer_fourth'])): ?>
+  <footer>
+  <?php print render($page['footer_fourth']); ?>
+  </footer>
+
+<?php endif; ?>
+
+
+
+
+
+
+
+
+
+
